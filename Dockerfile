@@ -1,2 +1,4 @@
-FROM nginx
-COPY src/ /usr/share/nginx/html
+FROM nginx:alpine
+WORKDIR /home/gaffclant/gaffclant.dev/
+COPY . .
+COPY nginx.conf /etc/nginx/nginx.conf
