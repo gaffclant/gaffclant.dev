@@ -1,2 +1,2 @@
 # gaffclant.dev
-My personal website
+My personal website with a blog
