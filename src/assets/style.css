@@ -58,6 +58,10 @@ p, ul, ol, hr, section {
     margin: 12px 0;
 }
 
+hr {
+  color: #cba6f7;
+}
+
 li {
     list-style-type: "❤ ";
 }
@@ -93,6 +97,3 @@ h2::before {
   margin: 5px;
 }
 
-hr {
-  color: #cba6f7;
-}
