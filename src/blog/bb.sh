@@ -22,7 +22,7 @@ global_variables() {
 	# Blog title
 	global_title="gaffclant.dev blog"
 	# The typical subtitle for each blog
-	global_description="<a href=\"https://gaffclant.dev\">home</a> | Silly goofy funny blog about tech stuffs"
+	global_description="Silly goofy funny blog about tech stuffs"
 	# The public base URL for this blog
 	global_url="https://gaffclant.dev/blog"
 
@@ -943,7 +943,7 @@ make_rss() {
 create_includes() {
 	{
 		echo "<h1 class=\"nomargin\"><a class=\"ablack\" href=\"$global_url/$index_file\">$global_title</a></h1>"
-		echo "<div id=\"description\">$global_description</div>"
+		echo "<div id=\"description\"><a href=\"https://gaffclant.dev\">home</a> | $global_description</div>"
 	} >".title.html"
 
 	if [[ -f $header_file ]]; then
