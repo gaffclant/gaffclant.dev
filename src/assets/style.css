@@ -43,13 +43,13 @@ img {
     height: auto;
 }
 
-a,
-a:visited {
+a:not(.buttona),
+a:not(.buttona):visited {
     color: var(--link-color);
 }
 
-a:active,
-a:hover:not(#top) {
+a:not(.buttona):active,
+a:not(.buttona):hover:not(#top) {
     color: #1e1e2e;
     background-color: var(--link-color);
 }
