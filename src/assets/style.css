@@ -43,6 +43,10 @@ img {
     height: auto;
 }
 
+a.buttona {
+  text-decorations: none;
+}
+
 a:not(.buttona),
 a:not(.buttona):visited {
     color: var(--link-color);
