@@ -103,7 +103,7 @@ global_variables() {
 	body_begin_file_index=""
 	# CSS files to include on every page, f.ex. css_include=('main.css' 'blog.css')
 	# leave empty to use generated
-	css_include=('../assets/style.css')
+	css_include=('../assets/blog.css')
 	# HTML files to exclude from index, f.ex. post_exclude=('imprint.html 'aboutme.html')
 	html_exclude=()
 
@@ -262,7 +262,7 @@ get_html_file_content() {
         if (\"$3\" == \"cut\" && /$cut_line/){
             if (\"$2\" == \"text\") exit # no need to read further
             while (getline > 0 && !/<!-- text end -->/) {
-                if (\"$cut_tags\" == \"no\" && /^<p>$template_tags_line_header/ ) print 
+                if (\"$cut_tags\" == \"no\" && /^<p>$template_tags_line_header/ ) print
             }
         }
     }"
@@ -967,8 +967,8 @@ create_includes() {
 		cp "$footer_file" .footer.html
 	else
 		{
-			protected_mail=${global_email//@/&}
-			protected_mail=${protected_mail//./&}
+			protected_mail=${global_email//@/&#64;}
+			protected_mail=${protected_mail//./&#46;}
 			echo "<div id=\"footer\">$global_license <a href=\"$global_author_url\">$global_author</a> &mdash; <a href=\"mailto:$protected_mail\">$protected_mail</a><br/>"
 			echo 'Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</div>'
 		} >>".footer.html"
