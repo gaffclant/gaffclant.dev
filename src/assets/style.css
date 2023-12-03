@@ -44,7 +44,7 @@ img {
 }
 
 a.buttona {
-  text-decorations: none;
+  text-decoration: none;
 }
 
 a:not(.buttona),
