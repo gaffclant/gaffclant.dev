@@ -86,3 +86,13 @@ h2::before {
     color: #cba6f7;
     content: "~ ❤ ";
 }
+
+.button {
+  width: 88px;
+  height: 31px;
+  margin: 5px;
+}
+
+hr {
+  color: #cba6f7;
+}
