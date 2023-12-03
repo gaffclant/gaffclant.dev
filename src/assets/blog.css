@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Fantasque Sans Mono';
+    src: url(/assets/FantasqueSansMono-Regular.ttf) format('ttf');
+    font-display: swap;
+}
+
+:root {
+    --text-color: #cdd6f4;
+    --link-color: #74c7ec;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-family:
+    'Fantasque Sans Mono',
+    monospace;
+    font-size: 18px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    background-color: #1e1e2e;
+    max-width: 768px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 12px 6px;
+    color: var(--text-color);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a,
+a:visited {
+    color: var(--link-color);
+}
+
+a:active,
+a:hover:not(#top) {
+    color: #1e1e2e;
+    background-color: var(--link-color);
+}
+
+p, ul, ol, hr, section {
+    margin: 12px 0;
+}
+
+hr {
+  color: #cba6f7;
+}
+
+li {
+    list-style-type: "❤ ";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    position: relative;
+    margin: 0.25rem 0;
+}
+
+
+
