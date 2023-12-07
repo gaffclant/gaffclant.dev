@@ -2,9 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>gaffclant.dev blog</title><link>https://gaffclant.dev/blog/index.html</link>
 <description>Silly goofy funny blog about tech stuffs</description><language>en</language>
-<lastBuildDate>Sun, 03 Dec 2023 00:52:37 -0600</lastBuildDate>
-<pubDate>Sun, 03 Dec 2023 00:52:37 -0600</pubDate>
+<lastBuildDate>Thu, 07 Dec 2023 15:14:12 -0600</lastBuildDate>
+<pubDate>Thu, 07 Dec 2023 15:14:12 -0600</pubDate>
 <atom:link href="https://gaffclant.dev/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Advent of Code - Day 1
+</title><description><![CDATA[
+
+<p>I know I'm late on this now shush.
+It's that time of the year again! Advent of code is here for 2023, and I plan on making a post
+for every single day. I am learning C still, so I figured AOC would be a great way to learn more
+about the language.</p>
+
+<hr />
+]]></description><link>https://gaffclant.dev/blog/advent-of-code---day-1.html</link>
+<guid>https://gaffclant.dev/blog/./advent-of-code---day-1.html</guid>
+<dc:creator>gaffclant</dc:creator>
+<pubDate>Thu, 07 Dec 2023 15:04:51 -0600</pubDate></item>
 <item><title>
 Welcome to my blog!
 </title><description><![CDATA[
